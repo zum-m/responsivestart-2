@@ -131,7 +131,7 @@ img{
     text-decoration: underline;
 }
 
- .btn{
+.btn{
     display: block;
     width: 214px;
     margin: auto;
@@ -242,3 +242,167 @@ img{
  }
 
  
+@media screen and (max-width:640px){
+    /* --------------------------
+    hero imarge
+    --------------------------- */
+    .hero-image{
+        margin: 64px 0 0;
+    }
+    
+    .hero-image__text{
+        font-size: 2.4rem;
+        white-space: nowrap;
+    }
+
+
+
+    /* --------------------------
+    header
+    --------------------------- */
+    .header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .header-wrapper{
+        display: block;
+        height: 64px;
+    }
+
+    .site-title{
+        padding: 24px 0;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    /* --------------------------
+    about
+    --------------------------- */
+
+    .profile-wrapper{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .profile{
+        padding: 80px 0 60px;
+    }
+
+    .profile__title{
+        margin: 0 0 24px;
+    }
+
+    .profile__eyecatch img{
+        width: 138px;
+    }
+
+    .profile__name{
+        margin: 0 0 20px;
+    }
+}
+
+    /* --------------------------
+    works
+    --------------------------- */
+
+    .works{
+        padding: 40px 0;
+    }
+    .works__title{
+        margin: 0 0 40px;
+    }
+
+    .wrapper{
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .works__list{
+        display: block;
+        margin: 0 0 40px;
+    }
+
+    .works__item{
+        width:100%;
+        margin: 0 0 40px;
+    }
+
+    .works__eyecatch{
+        margin: 0 0 20px;
+    }
+
+    .works__heading{
+        margin: 0 0 20px;
+    }
+
+.btn{
+    width: 100%;
+    padding: 17px 0;
+    font-size: 1.6rem;
+}
+
+
+
+
+/* ーーーーーーーーーーーーーーーーーー
+contact
+ーーーーーーーーーーーーーーーーー */
+.contact{
+    padding: 40px 0 80px;
+}
+
+.contact-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.contact__title{
+    margin: 0 0 40px;
+}
+
+.form-inner{
+    display: block;
+    margin: 0 0 50px;
+}
+
+.form-title{
+    width: 100%;
+    text-align: left;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.form-item{
+    width: 100%;
+    margin: 0 0 40px;
+}
+
+.form-parts{
+    padding: 10px 8px;
+}
+
+.form-label{
+    margin: 0 20px 0 0 ;
+    letter-spacing: -0.05em;
+    line-height: 2;
+}
+.form-label:last-of-type{
+    margin: 0;
+}
